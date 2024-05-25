@@ -73,11 +73,11 @@ const contractABI = [
       "type": "function"
     }
   ]
-const contractAddress = '0x5fbdb2315678afecb367f032d93f642f64180aa3';
+const contractAddress = '0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0';
 const contract = new web3.eth.Contract(contractABI, contractAddress);
 
 // Your Ethereum account (use the address from MetaMask)
-const account = '0x70997970C51812dc3A010C7d01b50e0d17dc79C8';
+const account = '0x90F79bf6EB2c4f870365E785982E1f101E93b906';
 
 // Function to generate file hash
 const generateFileHash = (fileBuffer) => {
